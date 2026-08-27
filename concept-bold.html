@@ -65,7 +65,8 @@
   .hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
   .hero-proof{margin-top:26px;font-size:.92rem;color:#B9CCC5}
   .hero-proof strong{color:#fff}
-  .stars{color:var(--star);letter-spacing:3px;font-size:1rem}
+  .stars{display:inline-flex;gap:3px;color:var(--star);vertical-align:-2px}
+  .stars svg{width:15px;height:15px;fill:currentColor}
   .portrait{position:relative}
   .portrait-frame{background:var(--pine-deep);border:1px solid #ffffff1f;border-radius:6px;min-height:340px;display:flex;align-items:center;justify-content:center;text-align:center;color:#7E9891;font-size:.85rem;padding:22px;position:relative;z-index:1}
   .portrait::after{content:"";position:absolute;top:16px;left:16px;right:-16px;bottom:-16px;border:1.5px solid var(--copper);border-radius:6px;opacity:.55}
@@ -97,7 +98,8 @@
   /* reviews — the star wall */
   .reviews{background:var(--pine);color:#fff;text-align:center;padding:84px 0}
   .reviews h2{color:#fff}
-  .starwall{max-width:620px;margin:34px auto 10px;font-size:1.5rem;line-height:1.9;letter-spacing:.42em;color:var(--star);text-shadow:0 0 18px #E0A43033;word-break:break-all;overflow-wrap:anywhere}
+  .starwall{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 16px;max-width:640px;margin:36px auto 10px;color:var(--star)}
+  .starwall svg{width:26px;height:26px;fill:currentColor;flex:0 0 auto}
   .starwall-caption{font-family:var(--display);font-size:1.25rem;color:#D4E0DA;margin-top:18px}
   .starwall-caption strong{color:var(--star);font-weight:700}
   .quote-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px;text-align:left}
@@ -192,12 +194,15 @@
     .topbar .wrap{flex-wrap:wrap;justify-content:center;gap:4px 14px}
     .topbar-phone{font-size:1rem}
     section{padding:52px 0}
-    .starwall{font-size:1.15rem;letter-spacing:.34em}
+    .starwall{gap:9px 12px}
+    .starwall svg{width:20px;height:20px}
     body{overflow-x:hidden}
   }
 </style>
 </head>
 <body>
+
+<svg style="display:none" aria-hidden="true"><symbol id="st" viewBox="0 0 24 24"><path d="M12 1.8l3 6.8 7.4.7-5.6 4.9 1.7 7.3L12 17.7l-6.5 3.8 1.7-7.3L1.6 9.3l7.4-.7z"/></symbol></svg>
 
 <div class="ribbon"><strong>DRAFT CONCEPT — FOR REVIEW ONLY.</strong> This is a proposed redesign of the thesnellfirm.com homepage. The live website has not been changed.</div>
 
@@ -221,7 +226,7 @@
         <a class="btn btn-copper" href="tel:+14702685802">Call (470) 268-5802</a>
         <a class="btn btn-outline" href="#free-case-review">Book Your Free Consultation</a>
       </div>
-      <p class="hero-proof"><span class="stars">★★★★★</span>&nbsp; <strong>5.0</strong> · 40+ Google reviews · Alpharetta &amp; Metro Atlanta</p>
+      <p class="hero-proof"><span class="stars"><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg></span>&nbsp; <strong>5.0</strong> · 40+ Google reviews · Alpharetta &amp; Metro Atlanta</p>
     </div>
     <div class="portrait">
       <div class="portrait-frame">[ PHOTO: Jeff Snell — professional headshot or office photo goes here ]</div>
@@ -289,7 +294,7 @@
   <div class="wrap">
     <p class="kicker" style="color:var(--star)">Real Clients, Real Reviews</p>
     <h2>A Perfect 5.0 on Google</h2>
-    <div class="starwall" aria-label="One star for each of our 40 five-star Google reviews">★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★</div>
+    <div class="starwall" role="img" aria-label="One star for each of our 40 five-star Google reviews"><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg><svg aria-hidden="true"><use href="#st"/></svg></div>
     <p class="starwall-caption">One star for every review — <strong>40+ reviews, every single one 5 stars.</strong></p>
     <div class="quote-cards">
       <div class="quote-card">"[ Pull quote from an approved Google review goes here — pending Jeff's pick ]"<div class="who">— Google review</div></div>
